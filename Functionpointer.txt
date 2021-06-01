@@ -1,0 +1,11 @@
+Concept Of Function Pointer :-
+How to declare ptr to an array
+int main(){
+{  
+	int *ptr[10]; // wrong its means 10 printer  pointing to integers
+	return 0; // always remember precedence of operator precedence of {} is higher than *
+} 
+now right one is 
+int (*ptr)[10];// to an array of 10 int as () >> []
+So to point a function we use 
+int (*ptr)(int, int) // to function contain two argument and return value int
